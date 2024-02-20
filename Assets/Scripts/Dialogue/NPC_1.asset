@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf0a3fba8bb7e9c4a855eb5af3596e6c, type: 3}
+  m_Name: NPC_1
+  m_EditorClassIdentifier: 
+  actor: {fileID: 4833806032846371542, guid: b5fbc53cc24228349b59a551be1faba6, type: 3}
+  speakerSprite: {fileID: 0}
+  sentence: 
+  dialogues:
+  - actorName: "mo\xE7a"
+    profile: {fileID: 21300000, guid: 8c0c3469a24bf02419519d67496c854b, type: 3}
+    sentence:
+      portuguese: "Ol\xE1 forasteiro J\xFAlio Cesar!! O que faz por aqui jogando
+        a uma hora dessas? Quer apanhar do Charles?"
+      english: "Hello stranger J\xFAlio Cesar!! What are you doing here playing at
+        such a time? Do you want to get beaten up by Charles?"
+      spanish: "Hola desconocido J\xFAlio Cesar!! \xBFQu\xE9 haces aqu\xED jugando
+        a estas horas? \xBFQuieres que Charles te golpee?"
+  - actorName: Cesar
+    profile: {fileID: 1718131395106512341, guid: aa6eeeecadec35246ac1c2f2932a7d01, type: 3}
+    sentence:
+      portuguese: "Verdade o Master Charles n\xE3o pode saber disso hein...."
+      english: True, Master Charles can't know that, huh....
+      spanish: Es cierto que el Maestro Charles no puede saber eso, eh...
+  - actorName: "mo\xE7a"
+    profile: {fileID: 21300000, guid: 8c0c3469a24bf02419519d67496c854b, type: 3}
+    sentence:
+      portuguese: "Ent\xE3o cria vergonha na cara Julio e v\xE1 estudar ao inv\xE9s
+        de ficar ai panguando!!!"
+      english: So make yourself ashamed, Julio, and go study instead of sitting there
+        panting!!!
+      spanish: "\xA1\xA1\xA1As\xED que averg\xFCenzate, Julio, y vete a estudiar
+        en lugar de quedarte ah\xED sentado jadeando!!!"
